@@ -1,12 +1,12 @@
-# 🚍 Toplu Taşıma Güzergah Optimizasyonu
+#  Toplu Taşıma Güzergah Optimizasyonu
 
 Bu proje, **Softmax algoritması** kullanılarak Kırklareli'nin **üç mahallesi** için **en uygun toplu taşıma güzergahını** belirlemeyi amaçlamaktadır.
 
-## 📊 Softmax Algoritmasının Projedeki Rolü
+## Softmax Algoritmasının Projedeki Rolü
 
 Projede, **nüfus yoğunluğu, mevcut ulaşım altyapısı, maliyet analizi, çevresel etki ve sosyal fayda** kriterleri kullanılarak en uygun güzergah belirlenmektedir. **Softmax algoritması**, bu kriterlerin **ağırlıklarını belirlemek** için kullanılmıştır.
 
-## 🛠 Nasıl Çalışır?
+##  Nasıl Çalışır?
 
 1. **Kriter Önem Skorları Belirlenir**
    - Projede kullanılan kriterler **farklı önem derecelerine** sahiptir. Örnek olarak:
@@ -38,28 +38,11 @@ Projede, **nüfus yoğunluğu, mevcut ulaşım altyapısı, maliyet analizi, çe
      ```
    - En yüksek toplam skora sahip mahalle **en uygun güzergah olarak belirlenir**.
 
-## 🎯 Neden Softmax Kullanıldı?
+##  Neden Softmax Kullanıldı?
 
 ✔ **Objektiflik:** Kriterlerin önemini **matematiksel olarak normalize eder**.
 ✔ **Esneklik:** Yeni kriterler eklenirse **ağırlıklar dinamik olarak güncellenebilir**.
 ✔ **Optimizasyon:** **Maliyet-fayda analizi** ile **verimli güzergah seçimi** yapılmasını sağlar.
 
-## 🚀 Çalıştırma Talimatları
-
-1. **Projeyi klonla**
-   ```bash
-   git clone https://github.com/ecemreer/Toplu-Tasima-Guzergah.git
-   ```
-2. **Java dosyalarını derle ve çalıştır**
-   ```bash
-   javac -d . src/*.java
-   java Uygulama
-   ```
-3. **Sonuçları konsolda görüntüle**
-
-## 📽️ Demo Videosu
-[Demo videosunu buraya ekleyin]
-
----
-Bu proje, GitHub üzerinde **herkese açık (public)** olarak paylaşılmıştır. **Detaylı dokümantasyon ve açıklamalar README.md içinde yer almaktadır.** 📌
+ **Detaylı dokümantasyon ve açıklamalar README.md içinde yer almaktadır.** 📌
 
