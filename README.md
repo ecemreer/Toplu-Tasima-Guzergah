@@ -40,9 +40,9 @@ Projede, **nüfus yoğunluğu, mevcut ulaşım altyapısı, maliyet analizi, çe
 
 ##  Neden Softmax Kullanıldı?
 
-✔ **Objektiflik:** Kriterlerin önemini **matematiksel olarak normalize eder**.
-✔ **Esneklik:** Yeni kriterler eklenirse **ağırlıklar dinamik olarak güncellenebilir**.
-✔ **Optimizasyon:** **Maliyet-fayda analizi** ile **verimli güzergah seçimi** yapılmasını sağlar.
+ **Objektiflik:** Kriterlerin önemini **matematiksel olarak normalize eder**.
+ **Esneklik:** Yeni kriterler eklenirse **ağırlıklar dinamik olarak güncellenebilir**.
+**Optimizasyon:** **Maliyet-fayda analizi** ile **verimli güzergah seçimi** yapılmasını sağlar.
 
- **Detaylı dokümantasyon ve açıklamalar README.md içinde yer almaktadır.** 📌
+ **Detaylı dokümantasyon ve açıklamalar README.md içinde yer almaktadır.** 
 
